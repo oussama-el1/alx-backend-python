@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """sum_mixed_list function"""
-
 from typing import List, Union
 
 
