@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""  """
+""" safe_first_element """
 from typing import Any, Union, Sequence
 
 
