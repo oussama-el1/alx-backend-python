@@ -3,7 +3,7 @@
 from typing import Tuple, List
 
 
-def zoom_array(lst: tuple, factor: int = 2) -> List:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """ solve zoom_array Types """
     zoomed_in: List = [
         item for item in lst
