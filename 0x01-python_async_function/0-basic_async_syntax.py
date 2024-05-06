@@ -17,7 +17,7 @@ async def wait_random(max_delay: int = 10) -> float:
         float: The actual delay in seconds.
 
     """
-    if max_delay <= 0:
+    if max_delay < 0:
         raise ValueError("max_delay must be a positive number")
 
     delay = random.uniform(0, max_delay)
